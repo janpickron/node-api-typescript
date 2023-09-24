@@ -10,7 +10,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/', (req: Request, res: Response) => {
-    res.json({ greeting: 'Hello World!' })
+    res.json({ greeting: 'Hello Janice from TypeScript World!'})
 })
 
 app.listen(4000, () => console.log('API listening on PORT ', 4000))
